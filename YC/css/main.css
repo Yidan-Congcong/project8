@@ -2627,6 +2627,8 @@ body.search-is-visible {
   visibility: visible;
 }
 
+
+
 /* ------------------------------------------------------------------- 
  * ## close button for search 
  * ------------------------------------------------------------------- */
@@ -2874,6 +2876,23 @@ body.search-is-visible {
   .header__search-form input[type="search"] {
     font-size: 2.6rem;
   }
+
+
+  .header__avatar {
+  position: absolute;
+  left: 0;
+  display: block;
+}
+
+  .header__avatar img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: bottom;
+
+}
+
 
 }
 
@@ -3373,7 +3392,7 @@ body.search-is-visible {
 }
 
 .comment__avatar {
-  position: absolute;
+  position: relative;
   left: 0;
   display: block;
 }
