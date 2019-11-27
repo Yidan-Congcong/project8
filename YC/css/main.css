@@ -3114,6 +3114,16 @@ body.search-is-visible {
   display: none;
 }
 
+.littleheart{
+  float: left;
+  width: 10%;
+}
+
+.numoflikes{
+  float: right;
+  width: 90%;
+}
+
 /* -------------------------------------------------------------------
  * ## post tags
  * ------------------------------------------------------------------- */
