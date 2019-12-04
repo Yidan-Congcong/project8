@@ -3114,16 +3114,6 @@ body.search-is-visible {
   display: none;
 }
 
-.littleheart{
-  float: left;
-  width: 10%;
-}
-
-.numoflikes{
-  float: right;
-  width: 90%;
-}
-
 /* -------------------------------------------------------------------
  * ## post tags
  * ------------------------------------------------------------------- */
@@ -3403,7 +3393,7 @@ body.search-is-visible {
 
 .comment__avatar {
   position: relative;
-  left: 0;
+  margin: center;
   display: block;
 }
 
